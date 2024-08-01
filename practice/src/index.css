@@ -1,0 +1,23 @@
+*{
+  transition: all 150ms ease-in-out;
+  font-family: monospace;
+}
+
+div{
+  display: flex;
+  text-align: center;
+}
+button{
+  border: none;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+}
+button:hover,button:focus{
+  background-color: rgb(197, 251, 233);
+  transform: scale(1.2);
+}
+h1{
+  font-size: 36px;
+  width: 100px;
+}
