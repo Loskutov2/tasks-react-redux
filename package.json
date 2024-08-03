@@ -7,6 +7,7 @@
   "dependencies": {
     "@redux-devtools/extension": "3.2.3",
     "@reduxjs/toolkit": "^2.2.6",
+    "axios": "^1.7.3",
     "clsx": "1.2.1",
     "nanoid": "4.0.0",
     "react": "18.2.0",

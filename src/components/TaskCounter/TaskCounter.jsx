@@ -4,6 +4,7 @@ import { getTasks } from "redux/selectors";
 
 export const TaskCounter = () => {
   const tasks = useSelector(getTasks)
+  console.log(tasks)
   const taskCounter = tasks.reduce((acc, task)=>{
     task.completed
       ?acc.completed+=1
